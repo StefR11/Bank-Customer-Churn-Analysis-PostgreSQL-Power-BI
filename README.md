@@ -6,35 +6,6 @@ The project started as a Power BI project, using a raw CSV file containing 10,00
 The overall process was:
 Raw CSV → PostgreSQL → Data Preparation → SQL Analysis → Power BI → DAX → Dashboard → Business Insights
 
-Skills Demonstrated
-
-SQL / PostgreSQL
-Data cleaning and transformation
-Data categorisation
-CTEs
-Window functions
-CASE WHEN
-JOIN
-Aggregations
-KPI calculations
-
-Power BI
-Power Query
-Data transformation
-Data modelling
-DAX
-KPI development
-Interactive dashboard design
-Data visualisation
-
-Data Analytics
-Customer segmentation
-Churn analysis
-KPI analysis
-Trend analysis
-Business insights
-Data-driven recommendations
-
 What is Customer Churn?
 
 Customer churn refers to customers who leave a business. The churn rate measures the proportion of customers who have left compared with the total customer base.
