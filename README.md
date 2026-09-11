@@ -7,10 +7,12 @@ The overall process was:
 Raw CSV → PostgreSQL → Data Preparation → SQL Analysis → Power BI → DAX → Dashboard → Business Insights
 
 What is Customer Churn?
+
 Customer churn refers to customers who leave a business. The churn rate measures the proportion of customers who have left compared with the total customer base.
 Analysing churn against different customer characteristics can help a business identify segments with higher levels of customer attrition and provide information that can support customer-retention strategies.
 
 Dataset
+
 The dataset contains 10,000 bank customer records and includes information such as:
 Customer ID
 Credit score
@@ -25,6 +27,7 @@ Active/inactive status
 Churn status
 
 Data Preparation & Analysis
+
 I used PostgreSQL and Power Query to clean and transform the raw data.
 The main preparation steps included:
 Removing unnecessary columns
@@ -38,6 +41,7 @@ Creating customer and churn KPIs
 In PostgreSQL, I also reproduced key Power BI calculations and analysed churn across different customer segments using SQL. The SQL work includes CTEs, CASE WHEN, ROW_NUMBER(), PARTITION BY, joins and aggregate calculations.
 
 Power BI Dashboard
+
 I created an interactive Power BI dashboard to analyse the customer base and identify patterns in customer churn.
 Main KPIs
 KPI	Result
@@ -53,6 +57,7 @@ Account-balance group
 A Churn Status slicer allows the report to be filtered between churned and non-churned customers, while a gauge chart compares the actual churn rate against the 15% target.
 
 Key Findings
+
 The main findings from my analysis were:
 The overall churn rate is 20.4%, which is above the 15% target.
 The 51–60 age group shows particularly high churn in several of the analyses.
@@ -63,6 +68,7 @@ Inactive customers have an observed churn rate of approximately 26.9%.
 These findings show associations within the dataset and would require further investigation to understand the reasons behind the higher churn rates.
 
 Business Insights
+
 Based on the analysis, I identified several areas that could be investigated further:
 Why is churn particularly high among customers aged 51–60?
 What factors may be contributing to the higher churn among inactive customers?
@@ -86,6 +92,7 @@ Churn Rate =
 The PostgreSQL analysis also reproduced these key calculations in SQL.
 
 Tools Used
+
 PostgreSQL / SQL — data preparation, transformation and analysis
 Power Query — data cleaning and transformation
 Power BI — data modelling and dashboard development
@@ -93,6 +100,7 @@ DAX — KPI and churn calculations
 CSV — raw data source
 
 Dashboard
+
 Bank Customer Churn Dashboard
 <img width="1138" height="650" alt="image" src="https://github.com/user-attachments/assets/74fef4f3-46f1-4a41-9fdf-7590e05fab9f" />
 
